@@ -10,5 +10,13 @@ public class Square extends Form {
         super(4, "Mov");
         this.side = side;
     }
+    @Override
+    public float getArea() {
+        return side*side;
+    }
+    @Override
+    public String toString() {
+        return "square side="+side;
+    }
 
 }

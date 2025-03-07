@@ -14,4 +14,14 @@ public class Triangle extends Form{
         this.base = base;
         this.height = height;
     }
+
+    @Override
+    public float getArea() {
+      return (base*height)/2;
+    }
+
+    @Override
+    public String toString() {
+        return "triangle base ="+base+" and the height="+height+"and areea"+super.getArea();
+    }
 }

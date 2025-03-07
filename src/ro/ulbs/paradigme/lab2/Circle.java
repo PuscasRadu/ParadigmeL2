@@ -10,6 +10,14 @@ public class Circle extends Form{
         super(3, "Mov");
         this.radius = radius;
     }
+    @Override
+    public float getArea() {
+
+    }
+    @Override
+    public String toString() {
+        return "circle radius ="+radius;
+    }
 
 
 }
