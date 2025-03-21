@@ -12,6 +12,7 @@ public class Circle extends Form{
     }
     @Override
     public float getArea() {
+        return 0;
 
     }
     @Override

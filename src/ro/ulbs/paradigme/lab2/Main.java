@@ -4,6 +4,11 @@ package ro.ulbs.paradigme.lab2;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
+        Form forma = new Form();
+        forma = new Form(3, "rosu");
+
+        System.out.println(Form.counter);
+
 
 
 
